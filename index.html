@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vladislav Linnik | Frontend Developer">
+  <title>Frontend Developer | Vladislav Linnik</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <button class="nav__burger" type="button" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="#about" class="nav__link">About me</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#reach" class="nav__link">Reach out</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="hero__greeting">Hey there, I'm</p>
+          <h1 class="hero__title">Vladislav Linnik</h1>
+          <p class="hero__subtitle">Frontend Developer</p>
+          <p class="hero__description">
+            Product-minded Frontend Developer with a focus on building fast, accessible, and scalable web applications.
+            <br>
+            Specializing in Angular and dedicated to clean code and modern web standards.
+            <br>
+            I'm a team player who cares about the product.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">See projects</a>
+            <a href="#contact" class="btn btn--outline">Contact</a>
+          </div>
+        </div>
+        <div class="hero__image-wrapper">
+          <img 
+            src="./assets/images/image.jpeg"
+            alt="developer photo"
+            class="hero__image"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section__title">About me</h2>
+        <div class="about__grid">
+          <div class="about__image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
+              alt="About developer"
+              class="about__image"
+            >
+          </div>
+          <div class="about__content">
+            <p class="about__text">
+              With over 7 years in web development, I specialize in building high-quality user interfaces using Angular.
+              <br>
+              My core focus lies in performance, accessibility, and exceptional UX.
+              <br>
+              Beyond frontend, I can handle straightforward backend tasks to deliver end-to-end solutions.
+              <br>
+              I am passionate about side projects, including a Telegram bot for teenagers about social impact and a web application for event invitations for my own event.
+              <br>
+              Additionally, I spent a year as a mentor on an educational platform, where I guided junior developers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section__title">Skills and tools</h2>
+        <div class="skills__grid">
+          <div class="skills__group">
+            <h3 class="skills__title">Frontend Core</h3>
+            <div class="skills__tags">
+              <span class="skills__tag">HTML/CSS</span>
+              <span class="skills__tag">TypeScript/JavaScript</span>
+              <span class="skills__tag">Angular (8-21)</span>
+              <span class="skills__tag">Accessibility</span>
+              <span class="skills__tag">JSONForms</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3 class="skills__title">Backend & Architecture</h3>
+            <div class="skills__tags">
+              <span class="skills__tag">NestJS 10</span>
+              <span class="skills__tag">Nx</span>
+              <span class="skills__tag">Webpack</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3 class="skills__title">Testing</h3>
+            <div class="skills__tags">
+              <span class="skills__tag">Vitest</span>
+              <span class="skills__tag">Jest</span>
+              <span class="skills__tag">Jasmine</span>
+              <span class="skills__tag">Cypress</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3 class="skills__title">Workflow & Tools</h3>
+            <div class="skills__tags">
+              <span class="skills__tag">Git</span>
+              <span class="skills__tag">Trunk-based development</span>
+              <span class="skills__tag">Scrum</span>
+              <span class="skills__tag">NVM</span>
+              <span class="skills__tag">asdf</span>
+              <span class="skills__tag">Figma</span>
+              <span class="skills__tag">Postman</span>
+              <span class="skills__tag">WebStorm</span>
+              <span class="skills__tag">Cursor</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3 class="skills__title">Beyond Coding</h3>
+            <div class="skills__tags">
+              <span class="skills__tag">Chess</span>
+              <span class="skills__tag">Guitar</span>
+              <span class="skills__tag">Cooking</span>
+              <span class="skills__tag">Reading</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <article class="projects__card">
+            <a href="https://www.lovemercyfoundation.org" target="_blank" rel="noopener">
+              <div class="projects__image-wrapper">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwEZz_xS_CMWK2i7qB1TTkP4Not4tB55Iyw&s" alt="Love Mercy" class="projects__image">
+              </div>
+              <div class="projects__content">
+                <h3 class="projects__title">Love Mercy</h3>
+                <p class="projects__description">Developed custom WordPress functionality and integrated a secure payment widget using Bootstrap. Effectively collaborated in a compact team of three to deliver reliable web solutions for the platform</p>
+                <div class="projects__skills">
+                  <span class="projects__skill">HTML/CSS</span>
+                  <span class="projects__skill">WordPress</span>
+                  <span class="projects__skill">JQuery</span>
+                  <span class="projects__skill">Bootstrap</span>
+                </div>
+                <span class="projects__link">View project →</span>
+              </div>
+            </a>
+          </article>
+          <article class="projects__card">
+            <a href="https://stoneink.com.au" target="_blank" rel="noopener">
+              <div class="projects__image-wrapper">
+                <img src="https://stoneink.com.au/favicon.png" alt="StoneInk" class="projects__image">
+              </div>
+              <div class="projects__content">
+                <h3 class="projects__title">StoneInk</h3>
+                <p class="projects__description">Mastered Angular while working on a complex ERP system.
+                  Beyond coding, I led task scoping and requirement gathering directly from the client, defining the project roadmap and managing the backlog.
+                  Progressed from a mentored junior to the primary owner of the frontend, eventually managing all client-side development within a lean two-person team</p>
+                <div class="projects__skills">
+                  <span class="projects__skill">Angular 8</span>
+                  <span class="projects__skill">Karma/Jasmine/Cypress</span>
+                  <span class="projects__skill">Kendo UI</span>
+                </div>
+                <span class="projects__link">View project →</span>
+              </div>
+            </a>
+          </article>
+          <article class="projects__card">
+            <a href="https://paydock.com" target="_blank" rel="noopener">
+              <div class="projects__image-wrapper">
+                <img src="https://i.ytimg.com/vi/lYr0cg92EtY/maxresdefault.jpg" alt="Designer portfolio" class="projects__image">
+              </div>
+              <div class="projects__content">
+                <h3 class="projects__title">Paydock</h3>
+                <p class="projects__description">Developed extensive frontend functionality for the core Checkout feature at a 100+ employee fintech company, contributed to various product modules across different teams.
+                  Operated as the primary frontend developer in my squad while collaborating on cross-team initiatives.
+                  Gained foundational backend experience with NestJS under mentorship and recently focused on a major platform redesign and UI library development using Angular 21.</p>
+                <div class="projects__skills">
+                  <span class="projects__skill">Angular 14-21</span>
+                  <span class="projects__skill">PrimeNG/Material</span>
+                  <span class="projects__skill">Jest/Jasmine/Vitest</span>
+                  <span class="projects__skill">NestJS</span>
+                </div>
+                <span class="projects__link">View project →</span>
+              </div>
+            </a>
+          </article>
+          <p class="projects__cta">Your project could be next</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reach" class="section reach">
+      <div class="container">
+        <h2 class="section__title">Reach me out</h2>
+        <form class="reach__form" id="reach-form"  action="https://formspree.io/f/mreyzkvp" method="POST">
+          <div class="reach__field">
+            <label for="reach-name" class="reach__label">Name</label>
+            <input type="text" id="reach-name" name="name" class="reach__input" required placeholder="Your name">
+          </div>
+          <div class="reach__field">
+            <label for="reach-email" class="reach__label">Email</label>
+            <input type="email" id="reach-email" name="email" class="reach__input" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required placeholder="your@email.com">
+          </div>
+          <div class="reach__field">
+            <label for="reach-message" class="reach__label">Message</label>
+            <textarea id="reach-message" name="message" class="reach__input reach__textarea" required placeholder="Your message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary reach__submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__links">
+          <a href="https://github.com/VladislavLinnik" class="contact__link" target="_blank" rel="noopener" title="GitHub">
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></span>
+            <span class="contact__name">GitHub</span>
+          </a>
+          <a href="https://t.me/vladislavlinnik" class="contact__link" target="_blank" rel="noopener" title="Telegram">
+            <span class="contact__icon"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></span>
+            <span class="contact__name">Telegram</span>
+          </a>
+          <a href="https://www.linkedin.com/in/vladislav-linnik/" class="contact__link" target="_blank" rel="noopener" title="LinkedIn">
+            <span class="contact__icon"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+            <span class="contact__name">LinkedIn</span>
+          </a>
+          <a href="mailto:vladislav.linnik.1999@gmail.com" class="contact__link" target="_blank" rel="noopener" title="Email">
+            <span class="contact__icon"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+            <span class="contact__name">Email</span>
+          </a>
+          <a href="tel:380673623867" class="contact__link" target="_blank" rel="noopener" title="Phone">
+            <span class="contact__icon"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" /></svg></span>
+            <span class="contact__name">Phone</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
