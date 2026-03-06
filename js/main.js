@@ -5,7 +5,7 @@
     burger: '.nav__burger',
     menu: '.nav__menu',
     navLinks: '.nav__link',
-    reachForm: '#reach-form',
+    reachForm: 'reach-form',
   };
 
   function initNav() {
@@ -49,7 +49,7 @@
   }
 
   function initReachForm() {
-    const form = document.querySelector(SELECTORS.reachForm);
+    const form = document.getElementById(SELECTORS.reachForm);
     form?.addEventListener('submit', handleReachFormSubmit);
   }
 
