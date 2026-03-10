@@ -357,7 +357,7 @@ ul {
 
 .projects__cta {
   grid-column: 1 / -1;
-  font: var(--font-size-lg) inherit;
+  font-size: var(--font-size-2xl);
   color: var(--color-text-subtle);
   text-align: center;
   margin: 0;
@@ -433,6 +433,28 @@ ul {
 
 .projects__link:hover {
   color: var(--color-primary-hover);
+}
+
+.section__title--resume {
+  text-align: center;
+}
+
+.resume__link {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume__icon {
+  height: 100px;
+  width: 100px;
+}
+
+.resume__text {
+  margin-top: 10px;
+  font: var(--font-size-base) var(--font-secondary);
 }
 
 .reach {
